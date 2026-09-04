@@ -1,0 +1,37 @@
+{
+  "model_name": "Qwen/Qwen3-1.7B-Base",
+  "smoke_model": "trl-internal-testing/tiny-Qwen3ForCausalLM",
+  "dataset": "nvidia/HelpSteer3",
+  "split_seed": 17,
+  "n_test": 5000,
+  "n_val": 2017,
+  "max_train": 0,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "train_fracs": [
+    1.0,
+    0.5
+  ],
+  "max_length": null,
+  "lr": 1e-05,
+  "epochs": 1,
+  "per_device_bs": 1,
+  "grad_accum": 32,
+  "temperatures": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "center_rewards_coefficient": 0.01,
+  "ece_bin_grid": [
+    5,
+    10,
+    15,
+    20
+  ],
+  "dataset_config": "preference",
+  "judge_null_model": "Qwen/Qwen3-1.7B"
+}

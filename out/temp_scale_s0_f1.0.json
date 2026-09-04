@@ -1,0 +1,18 @@
+{
+  "fitted_T_on_val": 0.7224,
+  "test_before": {
+    "n": 5000,
+    "accuracy": 0.7447,
+    "brier": 0.1586,
+    "log_loss": 0.5143,
+    "ece_10w": 0.0193
+  },
+  "test_after_wouldbe": {
+    "n": 5000,
+    "accuracy": 0.7447,
+    "brier": 0.159,
+    "log_loss": 0.5189,
+    "ece_10w": 0.0318
+  },
+  "note": "fitted on val; reported only, never applied"
+}
